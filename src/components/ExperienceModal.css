@@ -1,0 +1,67 @@
+.experience-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%; /* Ensure it takes full width of the container */
+    box-sizing: border-box;
+}
+
+.experience-section {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.experience-section h2 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.experience-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.experience-section ul li {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+    width: 100%; 
+}
+
+.experience-section ul li .icon {
+    margin-right: 8px;
+}
+
+.experience-section ul li span {
+    font-weight: normal;
+}
+
+.experience-section ul li strong {
+    font-weight: bold;
+    margin-left: auto; 
+    flex-shrink: 0; 
+}
+
+
+/* Add icon styling */
+.experience-section ul li .icon {
+    color: #4CAF50; /* Green for proficiency, can be customized */
+    margin-right: 0%; /* Spacing between icon and text */
+}
+
+
+.experience-section ul li span::before {
+    content: '';
+    display: inline-block;
+    margin-right: 1px;
+}

@@ -1,0 +1,59 @@
+/* src/components/ContactModal.css */
+.contact-content {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-content h2,
+.contact-content p {
+    margin: 10px 0;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Spacing between links */
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center; /* Aligns the text and image vertically */
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.contact-link img.icon {
+    width: 30px; /* Adjust width of the image */
+    height: 30px; /* Adjust height of the image */
+    margin-right: 10px; /* Adds spacing between the icon and text */
+}
+
+
+.email {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #ff4b4b;
+    /* Red color for Email */
+}
+
+.linkedin {
+    background-color: white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #0e76a8;
+    /* LinkedIn blue */
+}
+
+.whatsapp {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #25d366;
+    /* WhatsApp green */
+}
